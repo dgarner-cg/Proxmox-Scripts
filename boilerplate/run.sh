@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source /etc/lsb-release
+source /etc/os-release
 
 if [[ "$DISTRIB_ID" -ne "Ubuntu" ]]; then
   echo "No action taken..."
